@@ -7,21 +7,14 @@ data class CountriesDTO(
 //    val timezones: List<String>? = null,
     val capital: List<String>? = null,
     val flags: Flags? = null,
-    /*val region: String? = null,
-    val currency: Map<String, Map<String, String>>? = null,
-    val languages: Map<String, Map<String, String>>? = null,
-    val car: Car? = null,
-    val population: Int? = null,
-    val area: Double? = null,*/
-)
+//    val region: String? = null,
+//    val currency: Map<String, Map<String, String>>? = null,
+//    val languages: Map<String, Map<String, String>>? = null,
+//    val car: Car? = null,
+//    val population: Int? = null,
+//    val area: Double? = null,
 
-@kotlinx.serialization.Serializable
-data class Country(
-    val name: String,
-    val capital: String,
-    val flag: String
-)
-
+    )
 
 @kotlinx.serialization.Serializable
 data class Name(
